@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>模写コーディング</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="port3img/favicon.ico" />
+  <title>Travel Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+</head>
+
+<body>
+
+  <header id="header"><!--ヘッダ-->
+    <h1 class="header-img wrapper">
+      <a class="headerimg" href="index.html"><img src="port3img/logo.svg" alt="ヘッダーロゴ" ></a>
+    </h1> 
+
+    <nav id="navi">
+      <ul class="wrapper">
+        <li><a href="#">NEW</a></li>
+        <li><a href="#">COLUMN</a></li>
+        <li><a href="#">SERIES</a></li>
+        <li><a href="#">Q&A</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="pickup" class="wrapper"><!--ピックアップ-->
+    <article>
+      <img src="port3img/pickup1.jpg" alt="ピックアップ画像１">
+      <h2 class="atricle-title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+      <div class="readmore"><a id="readmore" href="#">READ MORE</a></div>
+    </article>
+    <article>
+      <img src="port3img/pickup2.jpg" alt="ピックアップ画像２">
+      <h2 class="atricle-title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+     <div class="readmore"><a id="readmore" href="#">READ MORE</a></div>
+    </article>
+    <article>
+      <img src="port3img/pickup3.jpg" alt="ピックアップ画像３">
+      <h2 class="atricle-title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h2>
+      <div class="readmore"><a id="readmore" href="#">READ MORE</a></div>
+    </article>
+
+  </div>
+
+  <div id="container" class="wrapper">
+    <!-- メインコンテンツ -->
+    <main>
+      <article>
+        <h2>タイトルテキストテキストテキストテキスト</h2>
+        <ul>
+          <li>2020/01/01</li>
+          <li>カテゴリ１</li>
+        </ul>
+        <img src="port3img/main1.jpg" alt="メイン画像１">
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div class="readmore"><a id="readmore" href="#">READ MORE</a></div>
+      </article>
+      <article>
+        <h2>タイトルテキストテキストテキストテキスト</h2>
+        <ul>
+          <li>2020/01/01</li>
+          <li>カテゴリ１</li>
+        </ul>
+        <img src="port3img/main2.jpg" alt="メイン画像２">
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div class="readmore"><a id="readmore" href="#">READ MORE</a></div>
+      </article>
+      <article>
+        <h2>タイトルテキストテキストテキストテキスト</h2>
+        <ul>
+          <li>2020/01/01</li>
+          <li>カテゴリ１</li>
+        </ul>
+        <img src="port3img/main3.jpg" alt="メイン画像３">
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div class="readmore"><a id="readmore" href="#">READ MORE</a></div>
+      </article>
+    </main>
+    <!-- サイドコンテンツ -->
+    <aside id="sidebar">
+      <section> <!--プロフ -->
+        <div id="sidebarimg"><img class="profphoto" src="port3img/author.jpg" alt="プロフ画像"></div>
+        <h3>Name Name</h3>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </section>
+      
+      <section><!-- ランキング -->
+        <h3>Ranking</h3>
+        <article>
+          <img src="port3img/ranking1.jpg" alt="ランキング１画像">
+          <h4>タイトル</h4>
+          <p>テキストテキストテキスト</p>
+        </article>
+
+        <article>
+          <img src="port3img/ranking2.jpg" alt="ランキング２画像">
+          <h4>タイトル</h4>
+          <p>テキストテキストテキスト</p>
+        </article>
+
+        <article>
+          <img src="port3img/ranking3.jpg" alt="ランキング３画像">
+          <h4>タイトル</h4>
+          <p>テキストテキストテキスト</p>
+        </article>
+      </section>
+
+      <section id="archive"> <!--アーカイブ -->
+        <h3>Archive</h3>
+        <ul>
+          <li><a href="#">XXXX年XX月(XX)</a></li>
+          <li><a href="#">XXXX年XX月(XX)</a></li>
+          <li><a href="#">XXXX年XX月(XX)</a></li>
+          <li><a href="#">XXXX年XX月(XX)</a></li>
+          <li><a href="#">XXXX年XX月(XX)</a></li>
+          <li><a href="#">XXXX年XX月(XX)</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="wrapper">
+      <section class="item"><!--アバウト-->
+        <h3>About</h3>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <ul>
+          <li><a href="#" class="arrow2">プロフィール詳細</a></li>
+          <li><a href="#" class="arrow2">お仕事の依頼</a></li>
+          <li><a href="#" class="arrow2">お問合せ</a></li>
+        </ul>
+      </section>
+
+      <section class="item"><!--フッターメニュー-->
+        <h3>Menu</h3>
+        <ul class="footerlist">
+          <li><a href="#">NEW</a></li>
+          <li><a href="#">CATEGORY</a></li>
+          <li><a href="#">COLUMN</a></li>
+          <li><a href="#">SERIES</a></li>
+          <li><a href="#">Q&A</a></li>
+        </ul>
+      </section>
+
+      <section class="item"><!--Twitter埋め込み-->
+        <h3>Twitter</h3>
+        <a class="twitter-timeline" data-height="300" data-theme="dark" href="https://twitter.com/home?ref_src=twsrc%5Etfw">Tweets by home</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </section>
+
+    </div>
+
+    <p>© Travel & Blog</p>
+  </footer>
+
+
+  
+</body>
+</html>
